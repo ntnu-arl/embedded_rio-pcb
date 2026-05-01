@@ -1,0 +1,29 @@
+# KiCad backup files
+*-backups/
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_prl
+_autosave-*
+
+# KiCad cache files
+fp-info-cache
+*.kicad_dru-bak
+
+# Generated outputs
+gerbers/
+production/
+*.gbr
+*.drl
+*.gbrjob
+
+# 3D rendering cache
+*.wrl
+*.step
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python plugin cache
+__pycache__/

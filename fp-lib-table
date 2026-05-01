@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BMI088")(type "KiCad")(uri "/home/nicolai/Kicad/BMI088")(options "")(descr ""))
+  (lib (name "QTH-030-01-L-D-A")(type "KiCad")(uri "/home/nicolai/Kicad/QTH-030-01-L-D-A")(options "")(descr ""))
+  (lib (name "BMP388")(type "KiCad")(uri "/home/nicolai/Kicad/BMP388")(options "")(descr ""))
+)
