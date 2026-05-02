@@ -1557,7 +1557,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "4f1245c2-bf12-48f2-af9d-15dd383d6ea0")
-		(at 196.43 72.2 -90)
+		(at 196.24 72.38 -90)
 		(descr "Through hole straight socket strip, 1x14, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x14 2.54mm single row")
 		(property "Reference" "TEENSY_LEFT1"
@@ -2901,7 +2901,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6807e06b-7ef3-45e5-bf61-7cb52eb1ff2c")
-		(at 163.43 87.44 90)
+		(at 163.24 87.62 90)
 		(descr "Through hole straight socket strip, 1x14, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x14 2.54mm single row")
 		(property "Reference" "TEENSY_RIGHT1"
@@ -6625,8 +6625,8 @@
 		)
 	)
 	(gr_line
-		(start 132.27 90.215)
-		(end 83.25 90.215)
+		(start 131.27 90.215)
+		(end 84.25 90.215)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -6634,9 +6634,31 @@
 		(layer "Edge.Cuts")
 		(uuid "0daa9fc9-06f9-4819-a973-66b1e1e2a7c9")
 	)
+	(gr_arc
+		(start 197.26 69.91)
+		(mid 197.967107 70.202893)
+		(end 198.26 70.91)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "161356d3-de88-40f9-95d6-a0f8041f6f86")
+	)
+	(gr_arc
+		(start 133.27 94.92)
+		(mid 132.562893 94.627107)
+		(end 132.27 93.92)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1c11b356-c146-49e1-9dcf-11d9e9782069")
+	)
 	(gr_line
-		(start 132.27 74.615)
-		(end 83.25 74.615)
+		(start 131.27 74.615)
+		(end 84.25 74.615)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -6644,9 +6666,20 @@
 		(layer "Edge.Cuts")
 		(uuid "1f0e7b12-80ca-4bc1-aa2b-920c48578e3d")
 	)
+	(gr_arc
+		(start 83.25 75.615)
+		(mid 83.542893 74.907893)
+		(end 84.25 74.615)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2b7f34b3-137a-46dd-9056-fc85e78f826b")
+	)
 	(gr_line
-		(start 198.26 94.92)
-		(end 198.26 69.91)
+		(start 198.26 93.92)
+		(end 198.26 70.91)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6654,9 +6687,31 @@
 		(layer "Edge.Cuts")
 		(uuid "3a9029df-023f-4624-9019-4092eb19f4e3")
 	)
+	(gr_arc
+		(start 84.25 90.215)
+		(mid 83.542893 89.922107)
+		(end 83.25 89.215)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3c59fb71-3e40-4ac4-8f10-d78687a96ef3")
+	)
+	(gr_arc
+		(start 131.27 90.215)
+		(mid 131.977107 90.507893)
+		(end 132.27 91.215)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "540234c9-fe84-4f15-a2ba-90239577abbd")
+	)
 	(gr_line
-		(start 198.26 94.92)
-		(end 132.27 94.92)
+		(start 197.26 94.92)
+		(end 133.27 94.92)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6665,8 +6720,8 @@
 		(uuid "8a84520c-bc5d-487f-806a-d7faac130b3c")
 	)
 	(gr_line
-		(start 132.27 69.91)
-		(end 132.27 74.615)
+		(start 132.27 70.91)
+		(end 132.27 73.615)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6674,9 +6729,31 @@
 		(layer "Edge.Cuts")
 		(uuid "9e9f8f84-d287-4ab7-83d2-30132ddb3494")
 	)
+	(gr_arc
+		(start 198.26 93.92)
+		(mid 197.967107 94.627107)
+		(end 197.26 94.92)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a7a404e4-a6bc-4265-b1dc-aae8ec67fc3f")
+	)
+	(gr_arc
+		(start 132.27 73.615)
+		(mid 131.977107 74.322107)
+		(end 131.27 74.615)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c6bd0b9e-f939-4fde-92a8-844cf68127c7")
+	)
 	(gr_line
-		(start 83.25 74.615)
-		(end 83.25 90.215)
+		(start 83.25 75.615)
+		(end 83.25 89.215)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6685,8 +6762,8 @@
 		(uuid "e2a92510-c1aa-4225-986d-dbe001fb820a")
 	)
 	(gr_line
-		(start 198.26 69.91)
-		(end 132.27 69.91)
+		(start 197.26 69.91)
+		(end 133.27 69.91)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6695,14 +6772,25 @@
 		(uuid "f1a68c60-4f6e-4224-abba-16691bddb240")
 	)
 	(gr_line
-		(start 132.27 94.92)
-		(end 132.27 90.215)
+		(start 132.27 93.92)
+		(end 132.27 91.215)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "f80a7900-6ad3-45e0-93e2-6a2fccdbaeac")
+	)
+	(gr_arc
+		(start 132.27 70.91)
+		(mid 132.562893 70.202893)
+		(end 133.27 69.91)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fd0a5c9f-36a8-4041-8a82-ee3046a311ae")
 	)
 	(embedded_fonts no)
 )
