@@ -173,7 +173,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at -1.1725 -2.06 180)
+			(at -0.3725 -1.71 180)
 			(layer "F.SilkS")
 			(uuid "cefb6266-b1d8-4efb-a8dd-11ce15ab2655")
 			(effects
@@ -1946,7 +1946,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at -1.0875 2.02 180)
+			(at -0.0475 1.76 180)
 			(layer "F.SilkS")
 			(uuid "86d4ab67-1093-4d15-9205-e64f7c814566")
 			(effects
@@ -2164,7 +2164,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at -1.3825 -2.05 180)
+			(at -0.1825 -1.81 180)
 			(layer "F.SilkS")
 			(uuid "8ce49223-1dbf-4994-a748-38de0d319795")
 			(effects
@@ -2316,7 +2316,7 @@
 		(uuid "62a81bc9-4b92-4106-b609-a902f6dfb681")
 		(at 151.94 88.2725)
 		(property "Reference" "BMP388"
-			(at 0.06 3.6175 0)
+			(at 0.35 3.4375 0)
 			(layer "F.SilkS")
 			(uuid "49ced036-7d20-47ec-a5fa-481e30d396bc")
 			(effects
@@ -3444,7 +3444,7 @@
 		(descr "JST GH series connector, SM04B-GHS-TB (http://www.jst-mfg.com/product/pdf/eng/eGH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST GH horizontal")
 		(property "Reference" "PIXHAWK_IO"
-			(at 7.07 -2.89 0)
+			(at 6.96 -3.94 0)
 			(layer "F.SilkS")
 			(uuid "01137cdd-ba5b-4705-9bb3-39ae1377cf8a")
 			(effects
@@ -4880,7 +4880,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D2"
-			(at -1.1025 1.93 180)
+			(at 0.1175 1.86 180)
 			(layer "F.SilkS")
 			(uuid "35602001-99dc-4d08-8cf1-3fb3b77f1023")
 			(effects
@@ -5110,7 +5110,7 @@
 			)
 		)
 		(property "Value" "MountingHole_2.7mm_M2.5"
-			(at -2.219 3.33 0)
+			(at -0.239 -4.58 0)
 			(layer "F.Fab")
 			(uuid "d4c77371-5855-4f5b-83fc-4902bfa21538")
 			(effects
@@ -5337,7 +5337,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 1.965 -1.68 180)
+			(at 0.805 -1.56 180)
 			(layer "F.SilkS")
 			(uuid "571aa7e8-cbb5-4ee3-8c19-7aa6d240f7bd")
 			(effects
@@ -5488,7 +5488,7 @@
 		(layer "B.Cu")
 		(uuid "1fa7a594-dd83-4e96-aad2-802a67798ff7")
 		(at 138.334 82.37 -90)
-		(property "Reference" "RADAR_IO1"
+		(property "Reference" "RADAR_IO"
 			(at -6.825 4.975 90)
 			(layer "B.SilkS")
 			(uuid "f8aa3b85-788a-4274-ad96-c11540f1b3ea")
@@ -6764,6 +6764,36 @@
 		(uuid "f8d60f79-7409-488c-9178-d50d2b20da37")
 	)
 	(gr_line
+		(start 144.15 87.4)
+		(end 142.49 87.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "02c0ae32-d8f4-4a63-a49b-d98bbfa123f2")
+	)
+	(gr_line
+		(start 144.15 81.03)
+		(end 142.53 81.03)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "b788168f-5600-48de-8adc-682c031c8e66")
+	)
+	(gr_line
+		(start 144.15 81.03)
+		(end 144.15 87.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "fa5a1b5a-5f44-4541-8760-b1252416c075")
+	)
+	(gr_line
 		(start 131.27 90.215)
 		(end 84.25 90.215)
 		(stroke
@@ -6931,14 +6961,26 @@
 		(layer "Edge.Cuts")
 		(uuid "fd0a5c9f-36a8-4041-8a82-ee3046a311ae")
 	)
-	(gr_text "PERIPHERALS OK"
-		(at 120.85 85.94 0)
+	(gr_text "SYS OK"
+		(at 123.62 85.5 0)
 		(layer "F.SilkS")
 		(uuid "18bf5b81-f05d-4499-aabe-ccfc81867ab3")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 128.685 89.4375 0)
+		(layer "F.SilkS")
+		(uuid "1f056c1a-6978-467e-8a25-08c610c19a5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -6955,6 +6997,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "M2.7"
+		(at 177.18 94.51 0)
+		(layer "F.SilkS")
+		(uuid "385579c5-bdbd-49b9-b6d2-c0cf4c72dc42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "5V"
 		(at 157.25 76.5 270)
 		(layer "F.SilkS")
@@ -6962,6 +7016,30 @@
 		(effects
 			(font
 				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Embedded RIO V2\nNicolai Aatif\n2026-05"
+		(at 185.11 94.46 0)
+		(layer "F.SilkS")
+		(uuid "4c5bac57-24d2-4b55-a902-32af8788e412")
+		(effects
+			(font
+				(size 1 0.95)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 115.185 87.2575 0)
+		(layer "F.SilkS")
+		(uuid "766d4645-9ef7-4256-bc8a-3c95878a0b28")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.1)
 			)
 			(justify left bottom)
@@ -7015,14 +7093,38 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FILTER STABLE"
-		(at 108.26 86.12 0)
+	(gr_text "-"
+		(at 115.185 89.5425 0)
+		(layer "F.SilkS")
+		(uuid "a250e633-64e4-44a8-a3f9-8d9ba2234a51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "FILTER OK"
+		(at 109.33 85.5 0)
 		(layer "F.SilkS")
 		(uuid "a402d34d-4816-45a8-a010-471ac12ac72f")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 128.685 87.1525 0)
+		(layer "F.SilkS")
+		(uuid "d2b2032b-cfdf-4d9c-9a02-39984ed7aa48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
@@ -7037,6 +7139,102 @@
 				(thickness 0.3)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "M2.7"
+		(at 141.11 94.5 0)
+		(layer "F.SilkS")
+		(uuid "f1496692-0def-440c-8eaa-380707d948ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 149.56 79.63 0)
+		(layer "B.SilkS")
+		(uuid "1af1b916-f2f1-4f98-a9a9-bd67a043f017")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TX"
+		(at 132.48 90.05 -0)
+		(layer "B.SilkS")
+		(uuid "22812127-6c83-464b-8899-1041b533d46c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5V"
+		(at 146.79 75.88 0)
+		(layer "B.SilkS")
+		(uuid "3b3d61ce-1125-4e16-9d9b-2481eb699282")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "RX"
+		(at 132.511904 89.02 -0)
+		(layer "B.SilkS")
+		(uuid "4d918dcd-df17-4f5f-932e-3c0a8b51e6f5")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TRIG"
+		(at 146.82 80.64 0)
+		(layer "B.SilkS")
+		(uuid "611aa5f0-31fa-4ea6-a260-73dfe8c74141")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "RX_D"
+		(at 146.91 78.59 0)
+		(layer "B.SilkS")
+		(uuid "6cb841c8-4627-410e-9380-c0e1c66c00b0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 145.35 83.04 90)
+		(layer "B.SilkS")
+		(uuid "9a3bcbea-db0f-4f3e-9f1c-90570c27f5d0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
@@ -7616,14 +7814,6 @@
 		(uuid "36359215-44cc-450d-bcd8-d0b33d50b1f1")
 	)
 	(segment
-		(start 141.42 79.62)
-		(end 143.19 79.62)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "3a3e3657-f570-4cc6-91a1-82428f5dfaff")
-	)
-	(segment
 		(start 143.09 84.12)
 		(end 141.42 84.12)
 		(width 0.2)
@@ -7688,6 +7878,14 @@
 		(uuid "d069a908-129e-4a2a-9551-e891beeb9d25")
 	)
 	(segment
+		(start 141.42 79.62)
+		(end 142.7 79.62)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "d36f1c5a-7585-4db7-8234-85de80e9bafa")
+	)
+	(segment
 		(start 141.42 85.62)
 		(end 143.1 85.62)
 		(width 0.2)
@@ -7696,12 +7894,12 @@
 		(uuid "d4871459-eaac-4011-ac43-7bf8abc57cda")
 	)
 	(segment
-		(start 143.19 79.62)
-		(end 144.08 78.73)
+		(start 143.04 79.28)
+		(end 145.34 79.28)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 1)
-		(uuid "f210260a-b9ea-4620-88ae-c32ccd6d1d1d")
+		(uuid "dfc38c6e-5665-43a1-9dfc-3b3f41f7243a")
 	)
 	(segment
 		(start 143.55 85.17)
@@ -7710,6 +7908,14 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "f9580a29-fde9-4d27-bb11-2d64b69b96c7")
+	)
+	(segment
+		(start 142.7 79.62)
+		(end 143.04 79.28)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "f97df445-9aa5-4857-a765-63e22c0a4d56")
 	)
 	(segment
 		(start 148.83 87.28)
