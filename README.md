@@ -3,7 +3,7 @@
 This is the PCB for the master thesis "Embedded Radar-Inertial Odometry". It is a carrier board built around a Teensy 4.0 that holds all the sensors and plugs into a Pixhawk flight controller.
 
 The firmware that runs on it lives in a separate repo:
-https://github.com/NicolaiAdil/embedded_rio
+https://github.com/ntnu-arl/embedded_rio
 
 ## What is on the board
 
